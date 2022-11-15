@@ -12,7 +12,7 @@ st.sidebar.header("""
 	""")
 option=st.sidebar.selectbox('Tugas :',
 	('Dissimilarity','Diskritisasi','K-NN','Naive Bayes','K-Means','K-NN dan Decision tree(UTS)','tugas 8','tugas 9','tugas 10')
-)
+        )
 
 
 
