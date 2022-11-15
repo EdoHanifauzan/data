@@ -5,5 +5,5 @@ email =\" edo.hanifauzan.satria@yahoo.com\"\n\
 echo "\
 [server]\n\\headless=true\n\
 enablesCORS=false\n\
-prot=$PORT\n\
+port=$PORT\n\
 "> ~.streamlit/config.toml
