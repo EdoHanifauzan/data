@@ -4,7 +4,7 @@ import numpy as np
 
 
 
-st.sidebar.header(""" 
+option = st.sidebar.header(""" 
 	#Edo HAnifauzan Satria
 	#200411100058
 	#Penambangan Data 
