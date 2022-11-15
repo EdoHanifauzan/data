@@ -1,1 +1,1 @@
-web: sh stup.sh && streamlit run website_hosting.py
+web: sh setup.sh && streamlit run website_hosting.py
