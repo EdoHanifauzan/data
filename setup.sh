@@ -1,5 +1,5 @@
 mkdir -p ~/.streamlit/
-echo "\[general]\n\
+echo "\[server]\n\
 email =\" edo.hanifauzan.satria@yahoo.com\"\n\
 " >
 echo "\
