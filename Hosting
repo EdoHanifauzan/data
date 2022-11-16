@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run website_hosting.py
+https://edohanifauzan-data-website-hosting-hosting-eizgwo.streamlit.app/
