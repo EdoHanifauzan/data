@@ -100,16 +100,16 @@ st.write(f'algoritma = {algoritma}')
 st.write(f'Akurasi  =', a)
 
 # proyeksi data PCA #
-pca= PCA(2)
-X_projected = pca.fit_transform(X)
-X1= X_projected[:,0]
-x2= X_projected[:,1]
+#pca= PCA(2)
+#X_projected = pca.fit_transform(X)
+#X1= X_projected[:,0]
+#x2= X_projected[:,1]
 
-fig= plt.figure()
-plt.scatter(x1, x2, c=y, alpha=0.75, cmap='viridis')
+#fig= plt.figure()
+#plt.scatter(x1, x2, c=y, alpha=0.75, cmap='viridis')
 
-plt.xlabel('principal Component 1')
-plt.ylabel('principal Component 2')
-plt.colorbar
+#plt.xlabel('principal Component 1')
+#plt.ylabel('principal Component 2')
+#plt.colorbar
 
-st.pyplot(fig)	
+#st.pyplot(fig)	
