@@ -41,11 +41,11 @@ algoritma= st.sidebar.selectbox(
 def pilih_dataset(nama):
 	data=None
 	if nama =='BUnga Iris':
-		data=dataset.load_iris()
+		data=datasets.load_iris()
 	elif nama =='Kanker Payudara':
-		data=dataset.load_breast_cancer()
+		data=datasets.load_breast_cancer()
 	elif nama =='Digit Angka':
-		data=dataset.load_digits()
+		data=datasets.load_digits()
 	elif nama =='Dataset user':
 		data= pd.read_csv('https://raw.githubusercontent.com/EdoHanifauzan/data/Dataset/student_data.csv')
 	X =data.data
