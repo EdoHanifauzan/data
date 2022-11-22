@@ -25,6 +25,7 @@ st.sidebar.subheader('User Input Features')
 st.sidebar.markdown("""
 [student_data file source :](https://raw.githubusercontent.com/EdoHanifauzan/data/Dataset/student_data.csv)
 """)
+df= pd.read_csv('https://raw.githubusercontent.com/EdoHanifauzan/data/Dataset/student_data.csv')
 
 nama_dataset= st.sidebar.selectbox(
     'pilih Dataset',
@@ -47,7 +48,7 @@ def pilih_dataset(nama):
 	elif nama =='Digit Angka':
 		data=datasets.load_digits()
 	elif nama =='Dataset user':
-		data= pd.read_csv('https://raw.githubusercontent.com/EdoHanifauzan/data/Dataset/student_data.csv')
+		data= df.to_numpy() 
 	X =data.data
 	y =data.target
 	return X ,y
