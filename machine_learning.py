@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
@@ -104,12 +104,12 @@ st.write(f'algoritma = {algoritma}')
 st.write(f'Akurasi  =', acc)
 
 # proyeksi data PCA #
-pca= PCA(2)
-X_projected = pca.fit_transform(X)
-X1= X_projected[:,0]
-X2= X_projected[:,1]
+#pca= PCA(2)
+#X_projected = pca.fit_transform(X)
+#X1= X_projected[:,0]
+#X2= X_projected[:,1]
 
-fig= plt.figure()
-plt.scatter(X1, X2, c=y, alpha=0.75, cmap='viridis')
+#fig= plt.figure()
+#plt.scatter(X1, X2, c=y, alpha=0.75, cmap='viridis')
 
-st.pyplot(fig)	
+#st.pyplot(fig)	
